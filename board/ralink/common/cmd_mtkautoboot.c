@@ -107,8 +107,8 @@ static void mtktftploop(void)
 	#define tostr(a)	_tostr(a)
 
 	env_set("autostart", "yes");
-	env_set("ipaddr", "192.168.1.1");
-	env_set("serverip", "192.168.1.2");
+	env_set("ipaddr", "192.168.11.1");
+	env_set("serverip", "192.168.11.2");
 	env_set("loadaddr", tostr(CONFIG_SYS_LOAD_ADDR));
 
 	while(1) {

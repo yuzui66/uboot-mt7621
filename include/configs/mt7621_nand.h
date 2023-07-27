@@ -33,8 +33,8 @@
 #endif
 
 /* Network */
-#define CONFIG_IPADDR			192.168.1.1
-#define CONFIG_SERVERIP			192.168.1.2
+#define CONFIG_IPADDR			192.168.11.1
+#define CONFIG_SERVERIP			192.168.11.2
 #define CONFIG_NETMASK			255.255.255.0
 
 #endif  /* __CONFIG_H */
